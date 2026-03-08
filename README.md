@@ -1,35 +1,36 @@
-# Drag & Drop Mechanics Test
+# Drag&drop игра
 
-🎮 A simple Unity test project demonstrating drag-and-drop mechanics.
-
-This repository contains a small Unity prototype that implements basic drag-and-drop interactions with objects in the scene.  
-The goal is to show how interactive object movement can be handled in Unity using mouse/touch input.
+🎮 Этот репозиторий содержит небольшой прототип на Unity, в котором реализовано базовое взаимодействие с объектами методом «перетащи и брось» (drag-and-drop).
+Цель проекта — показать, как в Unity можно управлять перемещением интерактивных объектов с помощью мыши или сенсорного ввода.
 
 ---
 
-## 🧩 Overview
+## 🧩 Обзор
+Проект фокусируется на следующих аспектах:
 
-This project focuses on:
+Базовая механика перетаскивания.
 
-- Basic drag-and-drop interaction
-- Detecting objects under cursor/touch
-- Updating object position during drag
-- Releasing objects at valid drop targets
+Определение объектов под курсором или точкой касания.
 
-This is a **mechanics test**, not a complete game — its purpose is to show a small, working gameplay feature. :contentReference[oaicite:1]{index=1}
+Обновление позиции объекта в процессе перетаскивания.
 
----
+«Сброс» объектов в допустимых зонах (drop targets).
 
-## 🛠 Tech Stack
-
-- **Engine:** Unity
-- **Language:** C#
-- **Mechanics:** Rigidbody, Input events, Raycasting
+Это технический тест, а не полноценная игра — его задача продемонстрировать одну небольшую, рабочую игровую механику.
 
 ---
 
-## 🚀 How to Use
+## 🛠 Технологический стек
+- Движок: Unity
 
-1. Clone the repository  
+- Язык: C#
+
+- Механики: Rigidbody, события ввода (Input events), Raycasting (луч-сканирование)
+
+---
+
+## 🚀  Как использовать
+Клонируйте репозиторий:
+
    ```bash
    git clone https://github.com/ShiiraMarks/DragAndDrop_MechanicsTest.git
